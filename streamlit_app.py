@@ -1,3 +1,3 @@
 import streamlit;
 
-streamlit.tile("I love Labrodar dogs")
+streamlit.tile('I love Labrodar dogs')
