@@ -7,5 +7,7 @@ streamlit.text('We love puppies')
 streamlit.text('Dogs eat lot of food')
 streamlit.text('We have to take them out periodically')
 
-streamlit.text('🥣 🥗 🐔 🥑🍞 adding emojis')
+streamlit.title('🥣 🥗 🐔 🥑🍞 adding emojis')
+
+streamlit.header('🥣 🥗 🐔 🥑🍞 adding emojis')
 
