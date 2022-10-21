@@ -1,9 +1,10 @@
-import streamlit;
-import pandas;
-import requests;
-import snowflake.connector;
+import streamlit
+import pandas
+import requests
+import snowflake.connector
+from urllib.error import URLError
 
-streamlit.stop();
+streamlit.stop()
 
 streamlit.title('I love Labrodar dogs')
 
