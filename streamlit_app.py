@@ -4,8 +4,6 @@ import requests
 import snowflake.connector
 from urllib.error import URLError
 
-streamlit.stop()
-
 streamlit.title('I love Labrodar dogs')
 
 streamlit.header('Available dog breeds')
@@ -52,7 +50,7 @@ my_cur.execute("select * from fruit_load_list")
 my_data_rows = my_cur.fetchall()
 streamlit.header("my fruit load list contains")
 streamlit.dataframe(my_data_rows)
-
+streamlit.stop()
 
 fruit_choice = streamlit.text_input('What fruit you would like to add?','Jackfruit')
 streamlit.write('Thanks for adding ', fruit_choice)
